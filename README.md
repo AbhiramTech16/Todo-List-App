@@ -49,7 +49,7 @@ To run this project, you need:
 ```
 
 ## Author
-- **Koushik Koppolu**
+- **Abhiram Sambaraju**
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
