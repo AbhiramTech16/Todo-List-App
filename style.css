@@ -1,128 +1,131 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
 .todos-bg-container {
-    background: linear-gradient(#7028E4, #E5B2CA);
-    height: 100vh;
-    background-size: cover;
+  background: linear-gradient(#7028e4, #e5b2ca);
+  height: 100vh;
+  background-size: cover;
 }
 
-
 .todos-heading {
-    text-align: center;
-    font-family: "Serif";
-    font-size: 46px;
-    font-weight: 500;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  text-align: center;
+  font-family: "Serif";
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .create-task-heading {
-    font-family: "Roboto";
-    font-size: 32px;
-    font-weight: 700;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .create-task-heading-subpart {
-    font-family: "Roboto";
-    font-size: 32px;
-    font-weight: 500;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .todo-items-heading {
-    font-family: "Roboto";
-    font-size: 32px;
-    font-weight: 700;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .todo-items-heading-subpart {
-    font-family: "Roboto";
-    font-size: 32px;
-    font-weight: 500;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .todo-items-container {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .todo-item-container {
-    margin-top: 15px;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .todo-user-input {
-    background-color: white;
-    width: 100%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e4e7eb;
-    border-radius: 10px;
-    margin-top: 10px;
-    padding: 15px;
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
 }
 
 .button {
-    color: white;
-    background-color: #4c63b6;
-    font-family: "Roboto";
-    font-size: 18px;
-    border-width: 0px;
-    border-radius: 4px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .label-container {
-    background-color: #e6f6ff;
-    width: 100%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #096f92;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
-    border-radius: 4px;
+  background-color: #e6f6ff;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
 }
 
 .checkbox-input {
-    width: 20px;
-    height: 20px;
-    margin-top: 12px;
-    margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  cursor: pointer;
 }
 
 .checkbox-label {
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    width: 82%;
-    margin: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
+  font-size: 16px;
+  color: #333333;
+  flex-grow: 1;
 }
 
 .delete-icon-container {
-    text-align: right;
-    width: 18%;
+  text-align: right;
+  width: 18%;
 }
 
 .delete-icon {
-    padding: 15px;
+  color: #dc3545;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 12px;
 }
 
 .checked {
-    text-decoration: line-through;
+  text-decoration: line-through;
+  color: #888888;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
